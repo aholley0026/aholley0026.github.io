@@ -1,4 +1,4 @@
-     <!DOCTYPE html>
+  <!DOCTYPE html>
 <html><head><title>student information</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -24,7 +24,7 @@
 </nav>    <!-- end nav-bar -->
 
 <div ng-controller = "allCtrl">
-Advisees</h2>
+<h2>Grade Point Average</h2>
           <p><input type='text' ng-model='search_text' > Enter Search text</p>
           <table class="table table-bordered table-striped">
               <tr>
@@ -32,7 +32,7 @@ Advisees</h2>
                   <th>First Name</th>
                   <th>Last Name</th>
                   <th>GPA</th>
-     
+
                 
               </tr>
               <tr ng-repeat = "student in students | filter:search_text ">
